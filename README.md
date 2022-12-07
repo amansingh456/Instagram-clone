@@ -24,3 +24,4 @@ start JSON server at PORT 3000
 
 ## Screenshots
 ![](https://github.com/amansingh456/Instagram-Final/blob/master/Screenshot%20(56).png)
+![](https://github.com/amansingh456/Instagram-Final/blob/master/Screenshot%20(57).png)
