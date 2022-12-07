@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/button.css">
+  <script type="module" src="./upload.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .downpart {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 300px;
+    }
+
+    .downpart>input,
+    button {
+      margin-top: 10px;
+    }
+
+    .downpart>button {
+      padding: 5px;
+      /* border: none; */
+      font-size: 20px;
+      color: green;
+      background: transparent;
+    }
+
+    .downpart>button:hover {
+      background-color: green;
+      color: #fff;
+      border: none;
+    }
+    .downpartTwo {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 300px;
+    }
+
+    .downpartTwo>input,
+    button {
+      margin-top: 10px;
+    }
+
+    .downpartTwo>button {
+      padding: 5px;
+      /* border: none; */
+      font-size: 20px;
+      color: blue;
+      background: transparent;
+    }
+
+    .downpartTwo>button:hover {
+      background-color: blue;
+      color: #fff;
+      border: none;
+    }
+    .downpartThree{
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 300px;
+    }
+
+    .downpartThree>input,
+    button {
+      margin-top: 10px;
+    }
+
+    .downpartThree>button {
+      padding: 5px;
+      /* border: none; */
+      font-size: 20px;
+      color: red;
+      background: transparent;
+    }
+
+    .downpartThree>button:hover {
+      background-color: red;
+      color: #fff;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav" id="navbar">
+  </nav>
+  <div style="height: 54px;"></div>
+
+  <a href="./index.html">
+    <button class="btn upld_btn">
+      <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+      </svg>
+      <span>Home <span class="add">></span></span>
+    </button>
+  </a>
+
+  <div class="downpart">
+    <h3>Add Post</h3>
+    <input type="text" id="id" placeholder="Id">
+    <input type="text" id="caption" placeholder="Add Caption">
+    <input type="file" id="image" accept="image/*">
+    <button id="create_btn">Create Post</button>
+  </div>
+  <div class="downpartTwo">
+    <h3>Update Post</h3>
+    <input type="text" id="upd_id" placeholder="Id">
+    <input type="text" name="newCaption" id="new_cpt" placeholder="new caption">
+    <button id="upd_btn">Update Post</button>
+  </div>
+  <div class="downpartThree">
+    <h3>Del Post</h3>
+    <input type="text" id="del_id" placeholder="Id">
+    
+    <button id="dlt_btn">Delete Post</button>
+  </div>
+  <!-- <h3>aman</h3> -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+
+
+.upld_btn{
+    position: absolute;
+    right: 20%;
+    top: 13%;
+  }
+  
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgb(198, 196, 196);
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #000;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background:rgb(198, 196, 196);
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .add{
+    margin-left: 10px;
+  
+    font-size: 20px !important;
+    font-weight: 900 !important;
+  }

@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "caption": "wer",
+      "id": "234",
+      "img_url": "https://i.ibb.co/tsSVt6n/pexels-cesar-perez-733745.jpg"
+    },
+    {
+      "caption": "qqqqqq",
+      "id": "434343",
+      "img_url": "https://i.ibb.co/TMnG76r/michael-dziedzic-g-EN5-Btvf2-Eg-unsplash.jpg"
+    },
+    {
+      "caption": "new_post",
+      "id": "111111",
+      "img_url": "https://i.ibb.co/pjLjyBZ/pexels-pixabay-33045.jpg"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
