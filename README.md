@@ -6,6 +6,7 @@ This is a clone of Instagram. I have tried to achieve some functionality using J
 run this command 
 
 `npm run server`
+`npm start`
 
 
 ## Pages & Features
