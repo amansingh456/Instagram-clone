@@ -3,8 +3,9 @@
 This is a clone of Instagram. I have tried to achieve some functionality using JavaScipt, HTML and CSS.
 
 ## To run App -
+run this command 
 
-start JSON server at PORT 3000
+`npm run server`
 
 
 ## Pages & Features
