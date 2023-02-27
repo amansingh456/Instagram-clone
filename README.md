@@ -1,6 +1,6 @@
 # Instagram Clone
 
-This is a clone of Instagram. I have tried to achieve some functionality using JavaScipt, HTML and CSS.
+This is a clone of Instagram. I have implemented some functionalities like add post, edit post and delete post to give a good touch to a user. Please have a look in this repo..
 
 ## To run App -
 run this command 
