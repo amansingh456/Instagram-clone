@@ -12,6 +12,7 @@ navbar_div.innerHTML = navbar()
 let create_btn = document.getElementById("create_btn")
 create_btn.addEventListener("click",()=>{
     addPost()
+    alert("Post Added")
 })
 create_btn.disabled=true
 
@@ -27,7 +28,7 @@ const addPost = async () =>{
     }
 
 
-    let res = await fetch('http://localhost:3000/posts',{
+    let res = await fetch('https://insta-backend-cits.onrender.com/posts',{
         method:'POST',
         body:JSON.stringify(send_this_data),
         headers: {
@@ -96,6 +97,7 @@ const handelI = async (event) =>{
 let upd_btn = document.getElementById("upd_btn")
 upd_btn.addEventListener("click", ()=>{
     updatePost()
+    alert("Post Updated")
 })
 
 
@@ -107,7 +109,7 @@ const updatePost = async() =>{
         let send_data = {
             "caption":new_cmnt
         }
-        let res = await fetch(`http://localhost:3000/posts/${id_to_upd}`,{
+        let res = await fetch(`https://insta-backend-cits.onrender.com/posts/${id_to_upd}`,{
             method:"PATCH",
             body: JSON.stringify(send_data),
             headers: {
@@ -132,13 +134,14 @@ const updatePost = async() =>{
 let del_btn = document.getElementById("dlt_btn")
 del_btn.addEventListener("click", ()=>{
     deletePost()
+    alert("Post Deleted")
 })
 
 
 const deletePost = async() =>{
     try {
         let id_to_delete = document.getElementById("del_id").value
-        let res = await fetch(`http://localhost:3000/posts/${id_to_delete}`,{
+        let res = await fetch(`https://insta-backend-cits.onrender.com/posts/${id_to_delete}`,{
             method:"DELETE",
             headers: {
                 "Content-Type": "application/json"
