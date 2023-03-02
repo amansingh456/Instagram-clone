@@ -2,7 +2,7 @@
 
 This is a clone of Instagram. I have implemented some functionalities like add post, edit post and delete post to give a good touch to a user. Please have a look in this repo..
 
-https://insta-clone-new.netlify.app
+! https://insta-clone-new.netlify.app
 
 
 ## Pages & Features
